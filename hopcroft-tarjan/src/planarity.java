@@ -11,6 +11,7 @@ public class planarity {
 
     public static void main(String[] args) {
         System.out.println("Is the graph planar? I haven't checked.");
+
         try {
             parseArgs(args);
         } catch (IllegalArgumentException e) {
